@@ -31,10 +31,9 @@ Sensor_CARD_V2, endüstriyel standartlarda sinyal bütünlüğü (Signal Integri
 ## 📂 Depo (Repository) Yapısı
 
 ```text
-├── Hardware/             # Altium Designer / EasyEDA Şematik ve PCB Çizimleri
+├── Hardware/             # AEasyEDA Şematik ve PCB Çizimleri
 │   ├── Schematics/       # Devre Şemaları (PDF / Source)
 │   └── Layout/           # PCB Katman Tasarımları ve Gerber Çıktıları
 ├── Firmware/             # STM32CubeIDE / Keil MDK Proje Klasörü
-│   ├── Core/             # Sürücü (Driver) ve Uygulama Kodları (.c, .h)
 │   └── Sensor_CARD_V2.ioc # STM32CubeMX Konfigürasyon Dosyası
 └── README.md             # Proje Tanıtım Dokümanı
