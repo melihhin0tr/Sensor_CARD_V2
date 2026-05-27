@@ -1,4 +1,4 @@
-# Sensor_CARD_V2 (STM32F407 Based Multi-Sensor & Avionics DAQ Board)
+# Sensor_CARD_V2 
 
 Sensor_CARD_V2, endüstriyel standartlarda sinyal bütünlüğü (Signal Integrity) ve elektromanyetik uyumluluk (EMC) kriterleri gözetilerek tasarlanmış, **STM32F407VGT6** tabanlı yüksek performanslı bir veri toplama (Data Acquisition - DAQ) ve sensör kontrol kartıdır. 
 
@@ -15,7 +15,7 @@ Sensor_CARD_V2, endüstriyel standartlarda sinyal bütünlüğü (Signal Integri
 
 ### 2. Sinyal Bütünlüğü ve Haberleşme Protokolleri
 * **MicroSD Kart (4-Bit SDIO Modu):** High-Speed Modda (50 MHz) sinyal yükselme zamanını (Rise Time < 3ns) korumak ve parazitik kapasitansı tolere etmek adına veri ve komut hatlarında **10 kΩ Strong Pull-up** dirençleri tercih edilmiştir. Saat (CLK) hattı ise yansımaları (ringing) önlemek amacıyla doğrudan sürülmüş ve sonlandırma direnciyle desteklenmiştir.
-* **Gelişmiş I2C Arayüzü:** SDA ve SCL hatları arasındaki sinyal karışmasını (Crosstalk) önlemek amacıyla layout aşamasında `3W kuralı` uygulanmış ve hatlar GND düzlemleriyle elektriksel olarak kalkanlanmıştır (Shielding).
+* **I2C Arayüzü:** SDA ve SCL hatları arasındaki sinyal karışmasını (Crosstalk) önlemek amacıyla layout aşamasında `3W kuralı` uygulanmış ve hatlar GND düzlemleriyle elektriksel olarak kalkanlanmıştır (Shielding).
 * **UART Hat Koruması:** TX ve RX hatlarında, anlık yüksek akım sıçramalarını sınırlamak ve EMI gürültüsünü sönümlemek amacıyla işlemci pini çıkışına yakın konumlandırılmış **22 Ω - 33 Ω** seri hat sonlandırma (series termination) dirençleri kullanılmıştır.
 
 ### 3. Güç Mimarisi ve Analog İzolasyon
