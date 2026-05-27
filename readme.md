@@ -1,9 +1,9 @@
 # Sensor_CARD_V2 
 <img width="624" height="618" alt="image" src="https://github.com/user-attachments/assets/b19c06e6-3bba-416b-a02d-4ff14893cf12" />
 
-Sensor_CARD_V2, endüstriyel standartlarda sinyal bütünlüğü (Signal Integrity) ve elektromanyetik uyumluluk (EMC) kriterleri gözetilerek tasarlanmış, **STM32F407VGT6** tabanlı yüksek performanslı bir veri toplama (Data Acquisition - DAQ) ve sensör kontrol kartıdır. 
+Sensor_CARD_V2, endüstriyel standartlarda sinyal bütünlüğü (Signal Integrity) ve elektromanyetik uyumluluk (EMC) kriterleri gözetilerek tasarlanmış, **STM32F407VGT6** tabanlı yüksek performanslı bir veri toplama  sensör kontrol kartıdır. 
 
-Özellikle vibrasyonlu, yüksek gürültülü ve ekstrem ortamlarda (aviyonik sistemler, roket elektroniği vb.) kararlı çalışması adına özel donanımsal koruma ve izolasyon katmanlarına sahiptir.
+
 
 ---
 
